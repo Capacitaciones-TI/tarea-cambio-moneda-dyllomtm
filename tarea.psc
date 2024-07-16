@@ -13,46 +13,46 @@ Algoritmo moneda
 		Caso "USD":
 			Segun destino Hacer
 				Caso "USD":
-					resultado = cantidad
+					resultado <- cantidad
 				Caso "EUR":
-					resultado = cantidad * 0.93
+					resultado <- cantidad * 0.93
 				Caso "GBP":
-					resultado = cantidad * 0.79
+					resultado <- cantidad * 0.79
 				Caso "AUD":
-					resultado = cantidad * 1.50
+					resultado <- cantidad * 1.50
 			FinSegun
 		Caso "EUR":
 			Segun destino Hacer
 				Caso "USD":
-					resultado = cantidad * 1.07
+					resultado <- cantidad * 1.07
 				Caso "EUR":
-					resultado = cantidad
+					resultado <- cantidad
 				Caso "GBP":
-					resultado = cantidad * 0.85
+					resultado <- cantidad * 0.85
 				Caso "AUD":
-					resultado = cantidad * 1.61
+					resultado <- cantidad * 1.61
 			FinSegun
 		Caso "GBP":
 			Segun destino Hacer
 				Caso "USD":
-					resultado = cantidad * 1.27
+					resultado <- cantidad * 1.27
 				Caso "EUR":
-					resultado = cantidad * 1.18
+					resultado <- cantidad * 1.18
 				Caso "GBP":
-					resultado = cantidad
+					resultado <- cantidad
 				Caso "AUD":
-					resultado = cantidad * 1.90
+					resultado <- cantidad * 1.90
 			FinSegun
 		Caso "AUD":
 			Segun destino Hacer
 				Caso "USD":
-					resultado = cantidad * 0.67
+					resultado <- cantidad * 0.67
 				Caso "EUR":
-					resultado = cantidad * 0.62
+					resultado <- cantidad * 0.62
 				Caso "GBP":
-					resultado = cantidad * 0.53
+					resultado <- cantidad * 0.53
 				Caso "AUD":
-					resultado = cantida
+					resultado <- cantida
 			FinSegun
 	FinSegun
 	
